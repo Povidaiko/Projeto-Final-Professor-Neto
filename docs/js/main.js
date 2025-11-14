@@ -2,18 +2,18 @@ var graficosJaForamCriados = false;
 
 window.onload = function(){
         $(document).ready(function(){
-                $("#headerMain").load("../docs/components/header/layout.html");
-                $("#aberturaMain").load("../docs/components/abertura/layout.html");
-                $("#cadastroPessoalMain").load("../docs/components/cadastro-pessoal/layout.html");
-                $("#cadastroEnderecoMain").load("../docs/components/cadastro-endereco/layout.html");
-                $("#cadastroEstudantilMain").load("../docs/components/cadastro-estudantil/layout.html");
-                $("#tabelaDinamicaMain").load("../docs/components/tabela/layout.html");
-                $("#graficosMain").load("../docs/components/graficos/layout.html");
-                $("#carouselUnicoMain").load("../docs/components/carousel-unico/layout.html");
-                $("#carousel3Main").load("../docs/components/carousel-3/layout.html");
-                $("#landPageMain").load("../docs/pages/prototipo/index.html");
-                $("#localizacaoMain").load("../docs/components/localizacao/layout.html");
-                $("#footerMain").load("../docs/components/footer/layout.html")
+                $("#headerMain").load("../components/header/layout.html");
+                $("#aberturaMain").load("../components/abertura/layout.html");
+                $("#cadastroPessoalMain").load("../components/cadastro-pessoal/layout.html");
+                $("#cadastroEnderecoMain").load("../components/cadastro-endereco/layout.html");
+                $("#cadastroEstudantilMain").load("../components/cadastro-estudantil/layout.html");
+                $("#tabelaDinamicaMain").load("../components/tabela/layout.html");
+                $("#graficosMain").load("../components/graficos/layout.html");
+                $("#carouselUnicoMain").load("../components/carousel-unico/layout.html");
+                $("#carousel3Main").load("../components/carousel-3/layout.html");
+                $("#landPageMain").load("../pages/prototipo/index.html");
+                $("#localizacaoMain").load("../components/localizacao/layout.html");
+                $("#footerMain").load("../components/footer/layout.html")
         })
 
         $("#cadastroPessoalMain").hide();
