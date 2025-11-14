@@ -1,0 +1,21 @@
+{
+  "name": "testando",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite"
+  },
+  "dependencies": {
+    "@amcharts/amcharts5": "^5.14.4",
+    "amcharts": "^3.14.5",
+    "jquery": "^3.7.1"
+  },
+  "devDependencies": {
+    "vite": "^7.2.2"
+  }
+}
