@@ -1,0 +1,16 @@
+body {
+    background-color: #F5F5F5;
+}
+
+.cadastro-endereco {
+    background-color: #F8F8FF;
+    padding: 2vh 7vh;
+    margin: 5vh 15vw;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px black;
+}
+
+#butaon {
+    padding-top: 7vh;
+    text-align: right;
+}

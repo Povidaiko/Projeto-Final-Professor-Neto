@@ -1,0 +1,37 @@
+body {
+    background-color: #F5F5F5;
+}
+
+.cadastro-estudante {
+    background-color: #F8F8FF;
+    padding: 2vh 7vh;
+    margin: 5vh 15vw;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px black;
+}
+
+.instituicao {
+    background-color: #F8F8FF;
+    padding: 2vh 7vh;
+    margin: 5vh 15vw;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px black;
+}
+
+#Estudante {
+    padding-top: 10vh;
+}
+
+.form-control {
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.row {
+    padding-top: 2vh;
+}
+
+#butaon {
+    padding-top: 7vh;
+    text-align: right;
+}

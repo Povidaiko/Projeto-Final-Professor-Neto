@@ -1,0 +1,92 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"/>
+<link rel="stylesheet" href="../docs/components/cadastro-endereco/styles.module.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bungee&family=Lexend+Deca:wght@100..900&family=Lilita+One&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+<div class="testandoele">
+    <div class="cadastro-endereco">
+        <div class="row">
+            <div class="col-md-2">
+                <div class="form-group">
+                    <label for="cepInput">CEP</label>
+                    <input type="text" class="form-control" id="cepInput" value="96820-14">
+                </div>
+            </div>
+            <div class="col-md-2 offset-md-1">
+                <label for="cidadeInput">Cidade</label>
+                <input type="text" class="form-control" id="cidadeInput" value="Xique Xique">
+            </div>
+            <div class="col-md-2 offset-md-1">
+                <div class="form-group">
+                    <label for="estadoInput">Estado</label>
+                    <select class="form-control" id="estadoInput">
+                        <option>AC</option>
+                        <option>AL</option>
+                        <option>AP</option>
+                        <option>AM</option>
+                        <option selected>BA</option>
+                        <option>CE</option>
+                        <option>DF</option>
+                        <option>ES</option>
+                        <option>GO</option>
+                        <option>MA</option>
+                        <option>MT</option>
+                        <option>MS</option>
+                        <option>MG</option>
+                        <option>PA</option>
+                        <option>PB</option>
+                        <option>PR</option>
+                        <option>PE</option>
+                        <option>PI</option>
+                        <option>RJ</option>
+                        <option>RN</option>
+                        <option>RS</option>
+                        <option>RO</option>
+                        <option>RR</option>
+                        <option>SC</option>
+                        <option>SP</option>
+                        <option>SE</option>
+                        <option>TO</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col=md-4 offset-md-1">
+                <div class="form-group">
+                    <label for="bairroInput">Bairro</label>
+                    <input type="text" class="form-control" id="bairroInput" value="HONOLULU">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label for="enderecoInput">Logradouro</label>
+                    <input type="text" class="form-control" id="enderecoInput" value="MOMONA ST">
+                </div>
+            </div>
+            <div class="col-md-2 offset-md-1">
+                <div class="form-group">
+                    <label for="numeroInput">Nº</label>
+                    <input type="number" class="form-control" id="numeroInput" value="892">
+                </div>
+            </div>
+            <div class="col-md-4 offset-md-1">
+                <div class="form-group">
+                    <label for="complementoInput">Complemento</label>
+                    <input type="text" class="form-control" id="complementoInput">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            
+        </div>
+
+        <div id="butaon">
+            <button type="button" onclick="salvar()" class="btn btn-success">Salvar cadastro</button>
+        </div>
+    </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>

@@ -1,0 +1,144 @@
+{
+  "receitas": [
+    {
+      "nome": "Bolo de Cenoura com Cobertura de Chocolate",
+      "tempo_preparo": "1 hora",
+      "ingredientes_principais": [
+        "Cenoura",
+        "Farinha de Trigo",
+        "Ovos",
+        "Chocolate em Pó"
+      ],
+      "tipo": "Doce"
+    },
+    {
+      "nome": "Feijoada Completa",
+      "tempo_preparo": "3 horas",
+      "ingredientes_principais": [
+        "Feijão Preto",
+        "Carne Seca",
+        "Linguiça Paio",
+        "Costelinha de Porco"
+      ],
+      "tipo": "Salgado"
+    },
+    {
+      "nome": "Mousse de Maracujá Rápido",
+      "tempo_preparo": "20 minutos + geladeira",
+      "ingredientes_principais": [
+        "Maracujá",
+        "Leite Condensado",
+        "Creme de Leite"
+      ],
+      "tipo": "Doce"
+    },
+    {
+      "nome": "Risoto de Limão Siciliano",
+      "tempo_preparo": "40 minutos",
+      "ingredientes_principais": [
+        "Arroz Arbóreo",
+        "Limão Siciliano",
+        "Vinho Branco Seco",
+        "Queijo Parmesão"
+      ],
+      "tipo": "Salgado"
+    },
+    {
+      "nome": "Salada Caesar com Frango Grelhado",
+      "tempo_preparo": "25 minutos",
+      "ingredientes_principais": [
+        "Alface Romana",
+        "Filé de Frango",
+        "Croutons",
+        "Queijo Parmesão"
+      ],
+      "tipo": "Salgado"
+    },
+    {
+      "nome": "Bruschetta de Tomate e Manjericão",
+      "tempo_preparo": "15 minutos",
+      "ingredientes_principais": [
+        "Pão Italiano",
+        "Tomate",
+        "Manjericão Fresco",
+        "Azeite de Oliva"
+      ],
+      "tipo": "Salgado"
+    },
+    {
+      "nome": "Caipirinha Tradicional",
+      "tempo_preparo": "10 minutos",
+      "ingredientes_principais": [
+        "Cachaça",
+        "Limão",
+        "Açúcar"
+      ],
+      "tipo": "Azedo"
+    },
+    {
+      "nome": "Strogonoff de Frango",
+      "tempo_preparo": "45 minutos",
+      "ingredientes_principais": [
+        "Peito de Frango",
+        "Creme de Leite",
+        "Molho de Tomate",
+        "Champignon"
+      ],
+      "tipo": "Salgado"
+    },
+    {
+      "nome": "Pudim de Leite Condensado",
+      "tempo_preparo": "1 hora + geladeira",
+      "ingredientes_principais": [
+        "Leite Condensado",
+        "Leite",
+        "Ovos",
+        "Açúcar (para a calda)"
+      ],
+      "tipo": "Doce"
+    },
+    {
+      "nome": "Guacamole Clássica",
+      "tempo_preparo": "20 minutos",
+      "ingredientes_principais": [
+        "Abacate",
+        "Tomate",
+        "Cebola Roxa",
+        "Limão",
+        "Coentro"
+      ],
+      "tipo": "Salgado"
+    },
+    {
+      "nome": "Macarrão ao Alho e Óleo",
+      "tempo_preparo": "20 minutos",
+      "ingredientes_principais": [
+        "Espaguete",
+        "Alho",
+        "Azeite de Oliva",
+        "Salsinha"
+      ],
+      "tipo": "Salgado"
+    },
+    {
+      "nome": "Café Expresso",
+      "tempo_preparo": "2 minutos",
+      "ingredientes_principais": [
+        "Pó de Café",
+        "Água"
+      ],
+      "tipo": "Amargo"
+    },
+    {
+      "nome": "Risoto de Cogumelos (Funghi)",
+      "tempo_preparo": "45 minutos",
+      "ingredientes_principais": [
+        "Arroz Arbóreo",
+        "Cogumelos Secos (Funghi)",
+        "Caldo de Legumes",
+        "Manteiga"
+      ],
+      "tipo": "Umami"
+    }
+  ]
+}

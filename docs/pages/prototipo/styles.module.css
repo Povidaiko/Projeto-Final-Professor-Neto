@@ -1,0 +1,419 @@
+/*body {
+  background-color: #ffffff;
+}*/
+
+#cabecalho {
+  margin-left: 3.5vh;
+  margin-right: 3.5vh;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.tomelapadas {
+  text-align: center;
+}
+
+.tomelapadas1 {
+  text-align: center;
+}
+
+.destaque-principal {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+#escrita-destaque {
+  margin-top: -3vh;
+  margin-bottom: 5vh;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+figure.destaque1 {
+  border: 8px solid white;
+  box-shadow: 1px 1px 4px black;
+  position: relative;
+  width: 40vh;
+  height: 40vh;
+  margin-left: 6vh;
+  border-radius: 5px;
+}
+
+figure.destaque1 img {
+  width: 100%;
+  height: 90%;
+  border-radius: 5px;
+}
+
+figure.destaque1 img:hover {
+  width: 100.5%;
+  height: 90.5%;
+  transition: 0.1s;
+}
+
+figure.destaque1 figcaption {
+  position: absolute;
+  bottom: 0%;
+}
+
+figure.destaque2 {
+  border: 8px solid white;
+  box-shadow: 1px 1px 4px black;
+  position: relative;
+  width: 40vh;
+  height: 40vh;
+  border-radius: 5px;
+}
+
+figure.destaque2 img {
+  width: 100%;
+  height: 90%;
+  border-radius: 5px;
+}
+
+figure.destaque2 figcaption {
+  position: absolute;
+  bottom: 0%;
+}
+
+figure.destaque3 {
+  border: 8px solid white;
+  box-shadow: 1px 1px 4px black;
+  position: relative;
+  width: 40vh;
+  height: 40vh;
+  border-radius: 5px;
+}
+
+figure.destaque3 img {
+  width: 100%;
+  height: 90%;
+  border-radius: 5px;
+}
+
+figure.destaque3 figcaption {
+  position: absolute;
+  bottom: 0%;
+}
+
+figcaption h3 {
+  font-size: 15px;
+}
+
+#futbolas {
+  background-color: yellow;
+  height: 4vh;
+  margin-left: 3.5vh;
+  margin-right: 3.5vh;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  position: relative;
+  margin-top: 3vh;
+}
+
+#footbolas {
+  position: absolute;
+  bottom: 0%;
+  margin-left: 45%;
+  padding: 1vh 0;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+a:visited {
+  color: inherit;
+  text-decoration: none;
+}
+
+#nomereceita {
+  margin: 8vh 65vh;
+  font-size: 4.5vh;
+  font-family: "Roboto", sans-serif;
+}
+
+#ingredientes {
+  margin: 2vh 20vh;
+  font-size: 3vh;
+  font-family: "Roboto", sans-serif;
+}
+
+.container-principal {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.container-ingredientes {
+  flex: 1;
+}
+
+.container-imagem-e-tabela {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.container-imagem-e-tabela img {
+  max-width: 100%;
+  height: auto;
+  width: 70%;
+  border-radius: 10px;
+}
+
+.tabela-nutricional {
+  width: 70%;
+}
+
+.tabela-nutricional table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.tabela-nutricional th,
+.tabela-nutricional td {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+.tabela-nutricional th {
+  background-color: #f2f2f2;
+}
+
+.detalhescalda {
+  margin: 4vh 20vh;
+  font-size: 2vh;
+  font-family: "Roboto", sans-serif;
+}
+
+.calda-detail {
+  margin-bottom: 3vh;
+  font-size: 2.5vh;
+}
+
+.detalhespudim {
+  margin: 4vh 20vh;
+  font-size: 2vh;
+  font-family: "Roboto", sans-serif;
+}
+
+.pudim-detail {
+  margin-bottom: 3vh;
+  font-size: 2, 5vh;
+}
+
+div#interface {
+  width: 75vh;
+  margin-left: 20vh;
+}
+
+#modopreparo {
+  margin: 2vh 20vh;
+  margin-top: 10vh;
+  font-size: 3vh;
+  font-family: "Roboto", sans-serif;
+  margin-top: -35vh;
+}
+
+.preparo {
+  margin-top: 4vh;
+  margin-bottom: 4vh;
+  font-size: 2.5vh;
+  font-family: "Roboto", sans-serif;
+}
+
+.strong1 {
+  margin: 4vh 0.5vh;
+  font-size: 2vh;
+}
+
+.prep1 {
+  font-size: 2vh;
+  font-family: "Roboto", sans-serif;
+}
+
+.prep2 {
+  font-size: 2vh;
+  font-family: "Roboto", sans-serif;
+}
+
+.image {
+  margin: 2vh;
+}
+
+/*-------------carousel--------------------------*/
+
+.sliderLand {
+  margin: 8vh auto;
+  width: 800px;
+  height: 400px;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 1px 1px 6px black;
+  z-index: 1;
+}
+
+.slidesLand {
+  width: 400%;
+  height: 400px;
+  display: flex;
+}
+
+.slidesLand input {
+  display: none;
+}
+
+.slideLand {
+  width: 25%;
+  position: relative;
+  transition: 2s;
+}
+
+.slideLand img {
+  width: 800px;
+}
+
+.manual-navigationLand {
+  position: absolute;
+  width: 800px;
+  margin-top: -40px;
+  display: flex;
+  justify-content: center;
+}
+
+.manual-btnLand {
+  border: 2px solid #fff;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.manual-btnLand:not(:last-child) {
+  margin-right: 40px;
+}
+
+.manual-btnLand:hover {
+  background-color: #fff;
+}
+
+#radio1Land:checked ~ .first {
+  margin-left: 0;
+}
+
+#radio2Land:checked ~ .first {
+  margin-left: -25%;
+}
+
+#radio3Land:checked ~ .first {
+  margin-left: -50%;
+}
+
+#radio4Land:checked ~ .first {
+  margin-left: -75%;
+}
+
+.navigation-autoLand div {
+  border: 2px solid #20a6ff;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.navigation-autoLand {
+  position: absolute;
+  width: 800px;
+  margin-top: 360px;
+  display: flex;
+  justify-content: center;
+}
+
+.navigation-autoLand div:not(:last-child) {
+  margin-right: 40px;
+}
+
+#radio1Land:checked ~ .navigation-autoLand .auto-btn1Land {
+  background-color: #fff;
+}
+
+#radio2Land:checked ~ .navigation-autoLand .auto-btn2Land {
+  background-color: #fff;
+}
+
+#radio3Land:checked ~ .navigation-autoLand .auto-btn3Land {
+  background-color: #fff;
+}
+
+#radio4Land:checked ~ .navigation-autoLand .auto-btn4Land {
+  background-color: #fff;
+}
+
+/*-------------carousel--------------------------*/
+
+#tomelapadas1 {
+  background-color: #fffb00d0;
+  justify-content: space-between;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 1px 1px 4px black;
+}
+
+#tomelapadas {
+  background-color: #fffb00d0;
+  justify-content: space-between;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 1px 1px 4px black;
+}
+
+.dropdown {
+  display: inline-block;
+}
+
+.dropdown a {
+  display: inline-block;
+  color: black;
+  text-decoration: none;
+  padding: 2.5vh;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.dropdown a:hover {
+  background-color: #afac07d0;
+}
+
+.marca a {
+  color: black;
+  text-decoration: none;
+  font-family: "Bungee", sans-serif;
+  margin-left: 5vh;
+  font-size: 4vh;
+}
+
+.dropdown-menu {
+  position: absolute;
+  background-color: #fffb00;
+  box-shadow: 0px 0px 2px black;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  display: none;
+  width: 12vh;
+  font-size: 1.3vh;
+}
+
+.dropdown-menu a {
+  display: block;
+  text-align: center;
+  position: relative;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  z-index: 2;
+  
+}

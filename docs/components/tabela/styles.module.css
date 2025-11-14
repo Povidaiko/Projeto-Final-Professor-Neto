@@ -1,0 +1,40 @@
+#h2 {
+    justify-content: center;
+    display: flex;
+    font-family: "Lexend Deca", sans-serif;
+    padding: 8px;
+    border: 1px solid #757575;
+    background-color: #C0C0C0;
+}
+
+#tabela{
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+}
+
+#thHeader{
+    background-color: #C0C0C0;
+}
+
+#tbody {
+    background-color: white;
+}
+
+.testandoele{
+    height: 48.3rem;
+}
+
+body{
+    background-color: #F8F8FF;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #757575;
+    padding: 5px 8px;
+    font-family: "Lexend Deca", sans-serif;
+}

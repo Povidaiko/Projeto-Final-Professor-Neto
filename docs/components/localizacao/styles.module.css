@@ -1,0 +1,10 @@
+.local{
+    height: 80vh; 
+    width: 100%;
+    margin: 40px 10vw;
+}
+
+#mapa{
+    width: 80%;
+    height: 90%;
+}
